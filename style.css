@@ -1,3 +1,8 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 header {
     background-size: cover;
     background-color: rgb(0, 12, 177);
@@ -41,28 +46,42 @@ figure > ul > li {
 }
 
 .flex-footer > div {
-    max-width: 75%;
     color: rgba(255,255,255);
     text-align: center;
     flex: 1;
+    min-height: 300px;
 }
 
 #footer-image-1 {
     background: linear-gradient(rgba(36, 99, 194, 0.5), rgba(36, 99, 194, 0.5)),
                 url("starter_files/images/donate.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 
 #footer-image-2 {
     background: linear-gradient(rgba(36, 99, 194, 0.5), rgba(36, 99, 194, 0.5)),
                 url("starter_files/images/volunteer.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #footer-image-3 {
     background: linear-gradient(rgba(36, 99, 194, 0.5), rgba(36, 99, 194, 0.5)),
                 url("starter_files/images/location.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }   
-
-img {
-    max-width: 100%;
-    height: auto;
-}
